@@ -80,7 +80,6 @@ def Main():
        the script.
         
     '''    
-    print("\nWK-2 : Myles Hurlbut - Version One\n")    
     while True:
         tbl = PrettyTable(['FilePath', 'Status', 'FileSize', 'Modified-Time', 'Access-Time', 'Created-Time', "Error Info"])        
         targetFolder = input(f"\nEnter a Directory Path {GetOperatingSystem()} ")
